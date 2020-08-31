@@ -10,7 +10,8 @@ const routes: Routes = [
   //{ path: 'jobs/:url', component: JobsComponent },
   { path: '', component: BuildsComponent },
   //{ path: '', redirectTo: '/builds', pathMatch: 'full' }, // redirect to `builds`
-  { path: '**', component: BuildsComponent }
+  { path: '**', component: BuildsComponent },
+  { path: 'kpimetrics', component: BuildsComponent }
 ];
 
 @NgModule({
