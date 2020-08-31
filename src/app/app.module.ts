@@ -8,12 +8,14 @@ import { BuildsComponent } from './module/builds/builds.component';
 import { ModuleService } from './module/module.service';
 import { HttpClientModule } from '@angular/common/http';
 import { JobsComponent } from './module/jobs/jobs.component';
+import { KpimetricsComponent } from './module/kpimetrics/kpimetrics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BuildsComponent,
-    JobsComponent
+    JobsComponent,
+    KpimetricsComponent
   ],
   imports: [
     BrowserModule,
